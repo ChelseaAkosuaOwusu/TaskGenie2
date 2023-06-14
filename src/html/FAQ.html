@@ -1,0 +1,721 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{> partials/head title="Landkit"}}
+  </head>
+  <body class="bg-light">
+
+    <!-- MODALS -->
+    {{> partials/modals}}
+
+    <!-- NAVBAR -->
+    {{> partials/navbar classList="navbar-light bg-white" container="container"}}
+
+    
+
+    <!-- CONTENT -->
+    <section class="pt-6 pt-md-8 pb-8 mb-md-8">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+
+            <div class="row mb-6 mb-md-8">
+              <div class="col-auto">
+
+                <!-- Icon -->
+                <div class="icon-circle bg-primary text-white">
+                  <i class="fe fe-users"></i>
+                </div>
+
+              </div>
+              <div class="col ml-n4">
+
+                <!-- Heading -->
+                <h2 class="font-weight-bold mb-0">
+                  Frequently Asked Questions
+                </h2>
+
+               
+              </div>
+            </div> <!-- / .row -->
+
+            <!-- Card -->
+            <div class="card shadow-light-lg accordion mb-5 mb-md-6" id="helpAccordionOne">
+              <div class="list-group">
+                
+                               <div class="list-group-item">
+
+                  <!-- Toggle -->
+                  <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#helpOne" role="button" aria-expanded="false" aria-controls="helpOne">
+
+                    <!-- Title -->
+                    <span class="mr-4">
+                      What is Task Genie?
+                    </span>
+
+                    <!-- Metadata -->
+                    <div class="text-muted ml-auto">
+
+                      <!-- Text -->
+                      <!-- <span class="font-size-sm mr-4 d-none d-md-inline">
+                        Updated last week
+                      </span> -->
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </div>
+
+                  </a>
+
+                  <!-- Collapse -->
+                  <div class="collapse" id="helpOne" data-parent="#helpAccordionOne">
+                    <div class="py-5">
+
+                      <!-- Text -->
+                      <p class="text-gray-700">
+                        Task Genie is a handyman app that connects users with skilled professionals who can assist with various home repair, maintenance, and improvement tasks.                      </p>
+
+                      <div class="d-flex align-items-center">
+
+                        <!-- Vote -->
+                        <div class="btn-group mr-4">
+
+                          <!-- Thumb down -->
+                          <input type="radio" class="btn-check" name="helpOneVote" id="helpOneDown" autocomplete="off">
+                          <label class="btn btn-sm btn-white" for="helpOneDown">
+                            <i class="fe fe-thumbs-down"></i>
+                          </label>
+
+                          <!-- Thumb up -->
+                          <input type="radio" class="btn-check" name="helpOneVote" id="helpOneUp" autocomplete="off">
+                          <label class="btn btn-sm btn-white" for="helpOneUp">
+                            <i class="fe fe-thumbs-up"></i>
+                          </label>
+
+                        </div>
+
+                        <!-- Text -->
+                        <span class="font-size-sm text-muted">
+                          Did this help solve your issue?
+                        </span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+                <div class="list-group-item">
+
+                  <!-- Toggle -->
+                  <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#helpTwo" role="button" aria-expanded="false" aria-controls="helpTwo">
+
+                    <!-- Title -->
+                    <span class="mr-4">
+                      What types of services can I expect from handymen on Task Genie?
+                    </span>
+
+                    <!-- Metadata -->
+                    <div class="text-muted ml-auto">
+
+                      <!-- Text -->
+                      <!-- <span class="font-size-sm mr-4 d-none d-md-inline">
+                        Updated 2 weeks ago
+                      </span> -->
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </div>
+
+                  </a> <!-- / .row -->
+
+                  <!-- Collapse -->
+                  <div class="collapse" id="helpTwo" data-parent="#helpAccordionOne">
+                    <div class="py-5">
+
+                      <!-- Text -->
+                      <p class="text-gray-700">
+                        Handymen on Task Genie offer a wide range of services, including general repairs, painting, carpentry, plumbing, electrical work, appliance repairs, furniture assembly, and more. You can find a handyman with the specific expertise needed for your task.                      </p>
+
+                      <div class="d-flex align-items-center">
+
+                        <!-- Vote -->
+                        <div class="btn-group mr-4">
+
+                          <!-- Thumb down -->
+                          <input type="radio" class="btn-check" name="helpTwoVote" id="helpTwoDown" autocomplete="off">
+                          <label class="btn btn-sm btn-white" for="helpTwoDown">
+                            <i class="fe fe-thumbs-down"></i>
+                          </label>
+
+                          <!-- Thumb up -->
+                          <input type="radio" class="btn-check" name="helpTwoVote" id="helpTwoUp" autocomplete="off">
+                          <label class="btn btn-sm btn-white" for="helpTwoUp">
+                            <i class="fe fe-thumbs-up"></i>
+                          </label>
+
+                        </div>
+
+                        <!-- Text -->
+                        <span class="font-size-sm text-muted">
+                          Did this help solve your issue?
+                        </span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+                <div class="list-group-item">
+
+                  <!-- Toggle -->
+                  <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#helpThree" role="button" aria-expanded="false" aria-controls="helpThree">
+
+                    <!-- Title -->
+                    <span class="mr-4">
+                      How do I find a reliable handyman on Task Genie?
+                    </span>
+
+                    <!-- Metadata -->
+                    <div class="text-muted ml-auto">
+
+                     
+                
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </div>
+
+                  </a> <!-- / .row -->
+
+                  <!-- Collapse -->
+                  <div class="collapse" id="helpThree" data-parent="#helpAccordionOne">
+                    <div class="py-5">
+
+                      <!-- Text -->
+                      <p class="text-gray-700">
+                        Task Genie ensures the reliability of handymen by thoroughly vetting and screening them. Each handyman is carefully selected based on their qualifications, experience, and customer ratings and reviews. You can review their profiles and feedback from previous customers to make an informed decision.                      </p>
+
+                      <div class="d-flex align-items-center">
+
+                        <!-- Vote -->
+                        <div class="btn-group mr-4">
+
+                          <!-- Thumb down -->
+                          <input type="radio" class="btn-check" name="helpThreeVote" id="helpThreeDown" autocomplete="off">
+                          <label class="btn btn-sm btn-white" for="helpThreeDown">
+                            <i class="fe fe-thumbs-down"></i>
+                          </label>
+
+                          <!-- Thumb up -->
+                          <input type="radio" class="btn-check" name="helpThreeVote" id="helpThreeUp" autocomplete="off">
+                          <label class="btn btn-sm btn-white" for="helpThreeUp">
+                            <i class="fe fe-thumbs-up"></i>
+                          </label>
+
+                        </div>
+
+                        <!-- Text -->
+                        <span class="font-size-sm text-muted">
+                          Did this help solve your issue?
+                        </span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+                <div class="list-group-item">
+
+                  <!-- Toggle -->
+                  <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#helpFour" role="button" aria-expanded="false" aria-controls="helpFour">
+
+                    <!-- Title -->
+                    <span class="mr-4">
+                      Are handymen insured in case of accidents or damages?
+                    </span>
+
+                    <!-- Metadata -->
+                    <div class="text-muted ml-auto">
+
+                      
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </div>
+
+                  </a> <!-- / .row -->
+
+                  <!-- Collapse -->
+                  <div class="collapse" id="helpFour" data-parent="#helpAccordionOne">
+                    <div class="py-5">
+
+                      <!-- Text -->
+                      <p class="text-gray-700">
+                        Task Genie provides insurance coverage to protect both users and handymen. In the event of accidental damages or injuries during a task, the insurance can help cover the costs, providing peace of mind to both parties involved.                      </p>
+
+                      <div class="d-flex align-items-center">
+
+                        <!-- Vote -->
+                        <div class="btn-group mr-4">
+
+                          <!-- Thumb down -->
+                          <input type="radio" class="btn-check" name="helpFourVote" id="helpFourDown" autocomplete="off">
+                          <label class="btn btn-sm btn-white" for="helpFourDown">
+                            <i class="fe fe-thumbs-down"></i>
+                          </label>
+
+                          <!-- Thumb up -->
+                          <input type="radio" class="btn-check" name="helpFourVote" id="helpFourUp" autocomplete="off">
+                          <label class="btn btn-sm btn-white" for="helpFourUp">
+                            <i class="fe fe-thumbs-up"></i>
+                          </label>
+
+                        </div>
+
+                        <!-- Text -->
+                        <span class="font-size-sm text-muted">
+                          Did this help solve your issue?
+                        </span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="list-group-item">
+
+                  <!-- Toggle -->
+                  <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#helpTwo" role="button" aria-expanded="false" aria-controls="helpTwo">
+
+                    <!-- Title -->
+                    <span class="mr-4">
+                      Can I schedule appointments in advance or request immediate assistance?                    </span>
+
+                    <!-- Metadata -->
+                    <div class="text-muted ml-auto">
+
+                      <!-- Text -->
+                      <!-- <span class="font-size-sm mr-4 d-none d-md-inline">
+                        Updated 2 weeks ago
+                      </span> -->
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </div>
+
+                  </a> <!-- / .row -->
+
+                  <!-- Collapse -->
+                  <div class="collapse" id="helpTwo" data-parent="#helpAccordionOne">
+                    <div class="py-5">
+
+                      <!-- Text -->
+                      <p class="text-gray-700">
+                        Yes, Task Genie allows users to schedule appointments in advance, giving you the flexibility to plan your repairs or improvements according to your availability. If you need immediate assistance, you can also find handymen who offer express service for urgent tasks.
+                      <div class="d-flex align-items-center">
+
+                        <!-- Vote -->
+                        <div class="btn-group mr-4">
+
+                          <!-- Thumb down -->
+                          <input type="radio" class="btn-check" name="helpTwoVote" id="helpTwoDown" autocomplete="off">
+                          <label class="btn btn-sm btn-white" for="helpTwoDown">
+                            <i class="fe fe-thumbs-down"></i>
+                          </label>
+
+                          <!-- Thumb up -->
+                          <input type="radio" class="btn-check" name="helpTwoVote" id="helpTwoUp" autocomplete="off">
+                          <label class="btn btn-sm btn-white" for="helpTwoUp">
+                            <i class="fe fe-thumbs-up"></i>
+                          </label>
+
+                        </div>
+
+                        <!-- Text -->
+                        <span class="font-size-sm text-muted">
+                          Did this help solve your issue?
+                        </span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+                <div class="list-group-item">
+
+                  <!-- Toggle -->
+                  <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#helpTwo" role="button" aria-expanded="false" aria-controls="helpTwo">
+
+                    <!-- Title -->
+                    <span class="mr-4">
+                      What if I have any issues or questions during or after a task?               </span>
+
+                    <!-- Metadata -->
+                    <div class="text-muted ml-auto">
+
+                      <!-- Text -->
+                      <!-- <span class="font-size-sm mr-4 d-none d-md-inline">
+                        Updated 2 weeks ago
+                      </span> -->
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </div>
+
+                  </a> <!-- / .row -->
+
+                  <!-- Collapse -->
+                  <div class="collapse" id="helpTwo" data-parent="#helpAccordionOne">
+                    <div class="py-5">
+
+                      <!-- Text -->
+                      <p class="text-gray-700">
+                        Task Genie has a dedicated customer support team ready to assist you. If you encounter any issues, questions, or concerns during or after a task, you can contact the support team through the app, and they will be happy to help resolve any problems.
+
+                        <div class="d-flex align-items-center">
+
+                        <!-- Vote -->
+                        <div class="btn-group mr-4">
+
+                          <!-- Thumb down -->
+                          <input type="radio" class="btn-check" name="helpTwoVote" id="helpTwoDown" autocomplete="off">
+                          <label class="btn btn-sm btn-white" for="helpTwoDown">
+                            <i class="fe fe-thumbs-down"></i>
+                          </label>
+
+                          <!-- Thumb up -->
+                          <input type="radio" class="btn-check" name="helpTwoVote" id="helpTwoUp" autocomplete="off">
+                          <label class="btn btn-sm btn-white" for="helpTwoUp">
+                            <i class="fe fe-thumbs-up"></i>
+                          </label>
+
+                        </div>
+
+                        <!-- Text -->
+                        <span class="font-size-sm text-muted">
+                          Did this help solve your issue?
+                        </span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+                <div class="list-group-item">
+
+                  <!-- Toggle -->
+                  <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#helpTwo" role="button" aria-expanded="false" aria-controls="helpTwo">
+
+                    <!-- Title -->
+                    <span class="mr-4">
+                      Is my personal information kept secure on Task Genie?                </span>
+
+                    <!-- Metadata -->
+                    <div class="text-muted ml-auto">
+
+                      <!-- Text -->
+                      <!-- <span class="font-size-sm mr-4 d-none d-md-inline">
+                        Updated 2 weeks ago
+                      </span> -->
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </div>
+
+                  </a> <!-- / .row -->
+
+                  <!-- Collapse -->
+                  <div class="collapse" id="helpTwo" data-parent="#helpAccordionOne">
+                    <div class="py-5">
+
+                      <!-- Text -->
+                      <p class="text-gray-700">
+                        Task Genie takes user privacy and data security seriously. They implement stringent measures to protect personal information, including encryption and secure data handling practices, ensuring that your data remains safe and confidential.                     </p>
+                        <div class="d-flex align-items-center">
+
+                        <!-- Vote -->
+                        <div class="btn-group mr-4">
+
+                          <!-- Thumb down -->
+                          <input type="radio" class="btn-check" name="helpTwoVote" id="helpTwoDown" autocomplete="off">
+                          <label class="btn btn-sm btn-white" for="helpTwoDown">
+                            <i class="fe fe-thumbs-down"></i>
+                          </label>
+
+                          <!-- Thumb up -->
+                          <input type="radio" class="btn-check" name="helpTwoVote" id="helpTwoUp" autocomplete="off">
+                          <label class="btn btn-sm btn-white" for="helpTwoUp">
+                            <i class="fe fe-thumbs-up"></i>
+                          </label>
+
+                        </div>
+
+                        <!-- Text -->
+                        <span class="font-size-sm text-muted">
+                          Did this help solve your issue?
+                        </span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+                <div class="list-group-item">
+
+                  <!-- Toggle -->
+                  <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#helpTwo" role="button" aria-expanded="false" aria-controls="helpTwo">
+
+                    <!-- Title -->
+                    <span class="mr-4">
+                      Can I become a handyman on Task Genie?                 </span>
+
+                    <!-- Metadata -->
+                    <div class="text-muted ml-auto">
+
+                      <!-- Text -->
+                      <!-- <span class="font-size-sm mr-4 d-none d-md-inline">
+                        Updated 2 weeks ago
+                      </span> -->
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </div>
+
+                  </a> <!-- / .row -->
+
+                  <!-- Collapse -->
+                  <div class="collapse" id="helpTwo" data-parent="#helpAccordionOne">
+                    <div class="py-5">
+
+                      <!-- Text -->
+                      <p class="text-gray-700">
+                        If you are a skilled handyman, you can join Task Genie's network of professionals. You can sign up on the Task Genie website or through the app, complete the registration process, and provide the necessary information. Once approved, you can start accepting tasks and serving customers through the platform.
+                        </p>                      
+                        <div class="d-flex align-items-center">
+
+                        <!-- Vote -->
+                        <div class="btn-group mr-4">
+
+                          <!-- Thumb down -->
+                          <input type="radio" class="btn-check" name="helpTwoVote" id="helpTwoDown" autocomplete="off">
+                          <label class="btn btn-sm btn-white" for="helpTwoDown">
+                            <i class="fe fe-thumbs-down"></i>
+                          </label>
+
+                          <!-- Thumb up -->
+                          <input type="radio" class="btn-check" name="helpTwoVote" id="helpTwoUp" autocomplete="off">
+                          <label class="btn btn-sm btn-white" for="helpTwoUp">
+                            <i class="fe fe-thumbs-up"></i>
+                          </label>
+
+                        </div>
+
+                        <!-- Text -->
+                        <span class="font-size-sm text-muted">
+                          Did this help solve your issue?
+                        </span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+                <div class="list-group-item">
+
+                  <!-- Toggle -->
+                  <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#helpTwo" role="button" aria-expanded="false" aria-controls="helpTwo">
+
+                    <!-- Title -->
+                    <span class="mr-4">
+                      How can I provide feedback or review a handyman's performance?                 </span>
+
+                    <!-- Metadata -->
+                    <div class="text-muted ml-auto">
+
+                      <!-- Text -->
+                      <!-- <span class="font-size-sm mr-4 d-none d-md-inline">
+                        Updated 2 weeks ago
+                      </span> -->
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </div>
+
+                  </a> <!-- / .row -->
+
+                  <!-- Collapse -->
+                  <div class="collapse" id="helpTwo" data-parent="#helpAccordionOne">
+                    <div class="py-5">
+
+                      <!-- Text -->
+                      <p class="text-gray-700">
+                        Task Genie values customer feedback and provides a mechanism to review and rate the performance of handymen. After completing a task, you can leave a review and rating based on your experience. This feedback helps maintain the quality of service and assists other users in making informed decisions when choosing a handyman
+                        </p>
+                                              <div class="d-flex align-items-center">
+
+                        <!-- Vote -->
+                        <div class="btn-group mr-4">
+
+                          <!-- Thumb down -->
+                          <input type="radio" class="btn-check" name="helpTwoVote" id="helpTwoDown" autocomplete="off">
+                          <label class="btn btn-sm btn-white" for="helpTwoDown">
+                            <i class="fe fe-thumbs-down"></i>
+                          </label>
+
+                          <!-- Thumb up -->
+                          <input type="radio" class="btn-check" name="helpTwoVote" id="helpTwoUp" autocomplete="off">
+                          <label class="btn btn-sm btn-white" for="helpTwoUp">
+                            <i class="fe fe-thumbs-up"></i>
+                          </label>
+
+                        </div>
+
+                        <!-- Text -->
+                        <span class="font-size-sm text-muted">
+                          Did this help solve your issue?
+                        </span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+                <div class="list-group-item">
+
+                  <!-- Toggle -->
+                  <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#helpTwo" role="button" aria-expanded="false" aria-controls="helpTwo">
+
+                    <!-- Title -->
+                    <span class="mr-4">
+                      Are the handymen on Task Genie licensed and insured?                   </span>
+
+                    <!-- Metadata -->
+                    <div class="text-muted ml-auto">
+
+                      <!-- Text -->
+                      <!-- <span class="font-size-sm mr-4 d-none d-md-inline">
+                        Updated 2 weeks ago
+                      </span> -->
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </div>
+
+                  </a> <!-- / .row -->
+
+                  <!-- Collapse -->
+                  <div class="collapse" id="helpTwo" data-parent="#helpAccordionOne">
+                    <div class="py-5">
+
+                      <!-- Text -->
+                      <p class="text-gray-700">
+                        Task Genie encourages handymen on their platform to maintain the necessary licenses and insurance coverage for their respective fields. However, it's important to review the individual handyman's profile and qualifications to ensure they meet your specific requirements and expectations.
+                        </p>
+                                              <div class="d-flex align-items-center">
+
+                        <!-- Vote -->
+                        <div class="btn-group mr-4">
+
+                          <!-- Thumb down -->
+                          <input type="radio" class="btn-check" name="helpTwoVote" id="helpTwoDown" autocomplete="off">
+                          <label class="btn btn-sm btn-white" for="helpTwoDown">
+                            <i class="fe fe-thumbs-down"></i>
+                          </label>
+
+                          <!-- Thumb up -->
+                          <input type="radio" class="btn-check" name="helpTwoVote" id="helpTwoUp" autocomplete="off">
+                          <label class="btn btn-sm btn-white" for="helpTwoUp">
+                            <i class="fe fe-thumbs-up"></i>
+                          </label>
+
+                        </div>
+
+                        <!-- Text -->
+                        <span class="font-size-sm text-muted">
+                          Did this help solve your issue?
+                        </span>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+           
+            <!-- Divider -->
+            <hr class="border-gray-300 my-6 my-md-8">
+
+            <!-- Header -->
+            <h3 class="font-weight-bold">
+              Related Help Center Categories
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-6 mb-md-8">
+              If you didn’t find what you needed, 
+              <a href="{{webRoot}}/contact.html">contact us</a>
+            </p>
+
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        {{> curves/curve-1}}
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    {{> partials/footer classList="bg-dark"}}
+
+    <!-- JAVASCRIPT -->
+    {{> partials/scripts}}
+
+  </body>
+</html>

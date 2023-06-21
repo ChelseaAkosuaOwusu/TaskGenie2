@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{> partials/head title="Landkit"}}
+  </head>
+  <body class="bg-light">
+
+    <!-- MODALS -->
+    {{> partials/modals}}
+
+    <!-- NAVBAR -->
+    {{> partials/navbar classList="navbar-light bg-white" container="container"}}
+
+    <!-- WELCOME -->
+    <section data-jarallax data-speed=".8" class="pt-10 pb-11 py-md-14 overlay overlay-black overlay-60 jarallax" style="background-image: url(assets/img/covers/cover-4.jpg);">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+
+            <!-- Heading -->
+            <h1 class="display-2 font-weight-bold text-white">
+              Welcome, "insert Name"
+            </h1>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-light">
+        {{> curves/curve-1}}
+      </div>
+    </div>
+
+    <!-- CATEGORIES -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+
+            <!-- Form -->
+            <form class="rounded shadow mt-n6 mb-4">
+              <div class="input-group input-group-lg">
+
+                <!-- Text -->
+                <span class="input-group-text border-0 pr-1">
+                  <i class="fe fe-search"></i>
+                </span>
+
+                <!-- Input -->
+                <input class="form-control border-0 px-1" type="text" aria-label="Search" placeholder="Search">
+
+                <!-- Text -->
+                <span class="input-group-text border-0 py-0 pl-1 pr-3">
+                  <button class="btn btn-sm btn-primary" type="submit">
+                    Search
+                  </button>
+                </span>
+
+              </div>
+            </form>
+
+           
+          </div>
+        </div> <!-- / .row -->
+
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-6 my-5">
+
+            <!-- button -->
+            <a href="#" class="btn btn-sm btn-primary w-100 ml-1 mr-2" type="submit">
+              Completed
+            </a>
+          </div>
+
+            <div class="col-12 col-md-6 col-lg-6 my-5">
+
+            <!-- button-->
+            <a href="{{webRoot}}/project-overview-inprogress.html" class="btn btn-sm btn-primary-soft ml-1 mr-2 w-100 " type="submit">
+              In Progress
+            </a>
+          </div>
+
+           
+
+
+      
+      </div>
+    </section>
+
+      <!-- MORE -->
+    <section class="py-7 py-md-10">
+      <div class="container">
+        <div class="row justify-content-center d-flex">
+          <div class="col-12 col-md-9 col-lg-8 col-xl-12 d-flex justify-content-center">
+
+           <!-- Heading -->
+           <h1 class="display-2">
+            <span> No projects yet</span>
+         </h1>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+
+    <!-- SHAPE -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        {{> curves/curve-1}}
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    {{> partials/footer classList="bg-dark"}}
+
+    <!-- JAVASCRIPT -->
+    {{> partials/scripts}}
+
+  </body>
+</html>

@@ -1,22 +1,21 @@
-# LANDKIT #
+# Task Genie - Handyman App
 
-Landkit Theme by Good Themes.
+Task Genie is a mobile application that connects users with skilled handymen who can assist with a wide range of home repair, maintenance, and improvement tasks. Whether you need help with general repairs, painting, carpentry, plumbing, or electrical work, Task Genie has you covered.
 
-### Documentation ###
+## Features
 
-Development documentation is available at `src/html/docs/index.html` (or `dist/docs/index.html` once you've compiled), or visit http://landkit.goodthemes.co/docs/index.html.
+- **Task Management:** Users can create new tasks, track the progress of ongoing tasks, and communicate with the assigned handymen through the in-app messaging system.
+- **Scheduling and Availability:** Users have the flexibility to schedule appointments with handymen based on their availability. They can book time slots that are convenient for their needs.
+- **Ratings and Reviews:** Users can provide feedback, ratings, and reviews for completed tasks, helping maintain a high standard of service and assisting other users in their decision-making process.
 
-### Getting Started ###
+## Contributing
 
-The steps to compile and get started with development are covered in detail in documentation mentioned above, but the summary is:
+ If you would like to contribute to the development of the app, please follow these steps:
 
-- npm install
-- npm start
+1. Fork the Task Genie repository.
+2. Create a new branch for your contributions.
+3. Make your changes and improvements in the branch.
+4. Submit a pull request outlining the changes you made and their purpose.
+5. Our team will review your pull request, provide feedback, and merge it if approved.
 
-### Design Files ###
 
-We provide an "unofficial" Landkit Figma file for you to play with. Learn more about it at http://landkit.goodthemes.co/docs/figma.html and view/download it here: https://www.figma.com/file/dRHDLzwl3ENBYaLlz88cjb/LandKit-1.2.0-Distributed.
-
-### Support ###
-
-Good Themes is happy to provide support for issues. Shoot us an email at support@goodthemes.co and we'll get you squared away.
